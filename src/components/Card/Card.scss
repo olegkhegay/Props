@@ -1,0 +1,37 @@
+.card{
+
+    border: 1px solid black;
+    max-width: 300px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+    transition: 0.5s;
+
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+
+    color: white;
+
+    &:hover{
+        scale: 1.05;
+        box-shadow: 0 0 15px 0 rgba(255, 249, 249, 0.8);
+    }
+
+    img{
+        border-radius: 20px;
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    button{
+        padding: 10px;
+        background-color: lightgreen;
+        color: rgb(21, 158, 112);
+        border-radius: 20px;
+    }
+}
